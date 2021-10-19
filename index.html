@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .mainmenubtn{
+            background-color:cadetblue;
+            color: white;
+            border: none;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .mainmenubtn:hover{
+            background-color: cyan;
+            padding: 25px;
+        }
+        .dropdown{
+            position: relative;
+            display:inline-block;
+        }
+        .dropdown-child{
+            display: none;
+            background-color: darkcyan;
+            min-width: 200px;
+        }
+        .dropdown-child a{
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown:hover .dropdown-child{
+            display: block;
+        }
+        
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentacion</title>
+</head>
+<body>
+    <h1>Javier Rodriguez</h1>
+    <div class="dropdown"> 
+        <button class="mainmenubtn"> Menu </button>
+        <div class="dropdown-child">
+           
+            <a href="#">Repositorio 1</a>
+            <a href="#">Repositorio 2</a>
+            <a href="#">Repositorio 3</a>
+       </div>
+    </div>
+    <div>
+        <p>soy javier un estudiante de ing. en sistemas y este es mi examen 1 sobre git</p>
+    </div>
+
+    <footer>
+        <p>javier rodriguez </p>
+        <p>17100286 </p>
+        <p>18/10/2021</p>
+        <address>
+            l17100286@nlaredo.tecnm.mx
+        </address>
+    </footer>
+    
+</body>
+</html>
